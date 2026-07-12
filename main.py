@@ -3,12 +3,12 @@ from markupsafe import escape
 
 app = Flask(__name__)
 
-app_color = "Greed"
+app_color = "Red"
 
 
 @app.route("/")
 def hello():
-    return "Hello from production"
+    return "Hello from devops"
 
 
 @app.route("/user/<username>")
