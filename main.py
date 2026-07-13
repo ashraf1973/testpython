@@ -8,6 +8,7 @@ app_color = "while"
 
 @app.route("/")
 def hello():
+    return "Hello from feature/change-greeting"
     return "Hello from main"
 
 
